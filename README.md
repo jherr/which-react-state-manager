@@ -14,6 +14,7 @@ State Manager Example Applications
 | ---- | ---- |
 | [Prop Drilling](http://localhost:3000/) | |
 | [Context](http://localhost:3001/) | |
+| [Reactive - Effector](http://localhost:3010/) | [Effector](https://effector.dev/) |
 | [One Way - Zustand](http://localhost:3002/) | [Zustand](https://zustand.surge.sh/) |
 | [One Way - Redux Toolkit](http://localhost:3003/) | [Redux Toolkit](https://redux-toolkit.js.org/) |
 | [Two Way - MobX](http://localhost:3004/) | [Mobx](https://mobx.js.org/README.html) |
