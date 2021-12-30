@@ -1730,6 +1730,11 @@ mobx-react-lite@^3.2.3:
   resolved "https://registry.yarnpkg.com/mobx-react-lite/-/mobx-react-lite-3.2.3.tgz#83d2b32ebf4383cd0dc0d397acbf53a8e9c66765"
   integrity sha512-7exWp1FV0M9dP08H9PIeHlJqDw4IdkQVRMfLYaZFMmlbzSS6ZU6p/kx392KN+rVf81hH3IQYewvRGQ70oiwmbw==
 
+mobx-state-tree@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/mobx-state-tree/-/mobx-state-tree-5.1.0.tgz#f2d8d32aa8743c2f52e57bd1c15d92395ac50cdb"
+  integrity sha512-tsKAV2OK4DisP2/SOK8K6d5dnelTR1E0pIHVWqjVxxyZgcCanFIA3GNvcN7k4sjppVmq26d0LEYjiD7AvthOAw==
+
 mobx@^6.3.10:
   version "6.3.10"
   resolved "https://registry.yarnpkg.com/mobx/-/mobx-6.3.10.tgz#c3bc715c8f03717b9a2329f9697d42b7998d42e0"
