@@ -19,6 +19,7 @@ State Manager Example Applications
 | Hooks/Reactive | [Rxjs](http://localhost:3013/) | [RxJs](https://rxjs.dev/), [Observable Hooks](https://observable-hooks.js.org/) |
 | One Way | [Zustand](http://localhost:3002/) | [Zustand](https://zustand.surge.sh/) |
 | One Way | [Redux Toolkit](http://localhost:3003/) | [Redux Toolkit](https://redux-toolkit.js.org/) |
+| One Way | [Unistore](http://localhost:3014/) | [Unistore](https://www.npmjs.com/package/unistore) |
 | Two Way | [MobX](http://localhost:3004/) | [Mobx](https://mobx.js.org/README.html) |
 | Two Way | [Valtio](http://localhost:3005/) | [Valtio](https://www.npmjs.com/package/valtio) |
 | Atomic | [Jotai](http://localhost:3006/) | [Jotai](https://github.com/pmndrs/jotai) |
