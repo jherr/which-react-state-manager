@@ -14,6 +14,7 @@ State Manager Example Applications
 | ---- | ---- | ---- |
 | Hooks | [Prop Drilling](http://localhost:3000/) | |
 | Hooks | [Context](http://localhost:3001/) | |
+| Hooks | [Global State](http://localhost:3016/) | [React Hooks Global State](https://www.npmjs.com/package/react-hooks-global-state) |
 | Reactive | [Effector](http://localhost:3010/) | [Effector](https://effector.dev/) |
 | Reactive | [Akita](http://localhost:3012/) | [Akita](https://datorama.github.io/akita/), [RxJs](https://rxjs.dev/), [Observable Hooks](https://observable-hooks.js.org/) |
 | Reactive | [Rxjs](http://localhost:3013/) | [RxJs](https://rxjs.dev/), [Observable Hooks](https://observable-hooks.js.org/) |
