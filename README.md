@@ -24,6 +24,7 @@ State Manager Example Applications
 | Atomic | [Recoil](http://localhost:3009/) | [Recoil](https://recoiljs.org/) |
 | One Way | [Zustand](http://localhost:3002/) | [Zustand](https://zustand.surge.sh/) |
 | One Way | [Redux Toolkit](http://localhost:3003/) | [Redux Toolkit](https://redux-toolkit.js.org/) |
+| One Way | [Rematch](http://localhost:3017/) | [Rematch](https://rematchjs.org/) |
 | One Way | [Unistore](http://localhost:3014/) | [Unistore](https://www.npmjs.com/package/unistore) |
 | Two Way | [MobX](http://localhost:3004/) | [Mobx](https://mobx.js.org/README.html) |
 | Two Way | [Valtio](http://localhost:3005/) | [Valtio](https://www.npmjs.com/package/valtio) |
