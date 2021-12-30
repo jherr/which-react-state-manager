@@ -60,7 +60,7 @@ function App() {
   return (
     <div className="mt-10 mx-auto max-w-3xl">
       <h1 className="font-bold text-5xl mb-5 border-b-2 border-gray-800">
-        Prop Drilling
+        Hooks - Prop Drilling
       </h1>
       <TimerDisplay seconds={seconds} />
       <TimerToggle running={running} onToggle={() => setRunning(!running)} />

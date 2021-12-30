@@ -1,13 +1,14 @@
 {
-  "name": "context",
+  "name": "hooks-constate",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite --port 3001",
+    "dev": "vite --port 3011",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "clean": "rm -fr node_modules || true"
   },
   "dependencies": {
+    "constate": "^3.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
