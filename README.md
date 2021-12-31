@@ -1,3 +1,8 @@
+<style>
+    table {
+        width: 100%;
+    }
+</style>
 State Manager Example Applications
 ===============================
 
@@ -12,8 +17,8 @@ State Manager Example Applications
 
 | Category | Name | Libraries | Downloads |
 | ---- | ---- | ---- | ---- |
-| Hooks | [Prop Drilling](http://localhost:3000/) | | N/A |
-| Hooks | [Context](http://localhost:3001/) | | N/A |
+| Hooks | [Prop Drilling](http://localhost:3000/) | | |
+| Hooks | [Context](http://localhost:3001/) | | |
 | Hooks | [Global State](http://localhost:3016/) | [React Hooks Global State](https://www.npmjs.com/package/react-hooks-global-state) | ![npm](https://img.shields.io/npm/dw/react-hooks-global-state?color=white&label=%20&style=flat-square) |
 | Hooks | [Hookstate](http://localhost:3018/) | [Hookstate](https://hookstate.js.org/) | ![npm](https://img.shields.io/npm/dw/@hookstate/core?color=white&label=%20&style=flat-square) |
 | Reactive | [Effector](http://localhost:3010/) | [Effector](https://effector.dev/) | ![npm](https://img.shields.io/npm/dw/effector?color=white&label=%20&style=flat-square) |
