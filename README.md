@@ -16,6 +16,7 @@ State Manager Example Applications
 | Hooks | [Context](http://localhost:3001/) | | |
 | Hooks | [Global State](http://localhost:3016/) | [React Hooks Global State](https://www.npmjs.com/package/react-hooks-global-state) | ![npm](https://img.shields.io/npm/dw/react-hooks-global-state?color=white&label=%20&style=flat-square) |
 | Hooks | [Hookstate](http://localhost:3018/) | [Hookstate](https://hookstate.js.org/) | ![npm](https://img.shields.io/npm/dw/@hookstate/core?color=white&label=%20&style=flat-square) |
+| Hooks | [Teaful](http://localhost:3021/) | [Teaful](https://hookstate.js.org/) | ![npm](https://img.shields.io/npm/dw/teaful?color=white&label=%20&style=flat-square) |
 | Reactive | [Effector](http://localhost:3010/) | [Effector](https://effector.dev/) | ![npm](https://img.shields.io/npm/dw/effector?color=white&label=%20&style=flat-square) |
 | Reactive | [Akita](http://localhost:3012/) | [Akita](https://datorama.github.io/akita/) | ![npm](https://img.shields.io/npm/dw/@datorama/akita?color=white&label=%20&style=flat-square) |
 | Reactive | [Rxjs](http://localhost:3013/) | [Observable Hooks](https://observable-hooks.js.org/) | ![npm](https://img.shields.io/npm/dw/observable-hooks?color=white&label=%20&style=flat-square) |
