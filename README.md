@@ -25,11 +25,11 @@ State Manager Example Applications
 | Reactive | [Storeon](http://localhost:3020/) | [Storeon](https://github.com/storeon/storeon) | ![npm](https://img.shields.io/npm/dw/storeon?color=white&label=%20&style=flat-square) |
 | Atomic | [Jotai](http://localhost:3006/) | [Jotai](https://github.com/pmndrs/jotai) | ![npm](https://img.shields.io/npm/dw/jotai?color=white&label=%20&style=flat-square) |
 | Atomic | [Recoil](http://localhost:3009/) | [Recoil](https://recoiljs.org/) | ![npm](https://img.shields.io/npm/dw/recoil?color=white&label=%20&style=flat-square) |
-| One Way | [Zustand](http://localhost:3002/) | [Zustand](https://zustand.surge.sh/) | ![npm](https://img.shields.io/npm/dw/zustand?color=white&label=%20&style=flat-square) |
-| One Way | [Redux Toolkit](http://localhost:3003/) | [Redux Toolkit](https://redux-toolkit.js.org/) | ![npm](https://img.shields.io/npm/dw/@reduxjs/toolkit?color=white&label=%20&style=flat-square) |
-| One Way | [Rematch](http://localhost:3017/) | [Rematch](https://rematchjs.org/) | ![npm](https://img.shields.io/npm/dw/@rematch/core?color=white&label=%20&style=flat-square) |
-| One Way | [Unistore](http://localhost:3014/) | [Unistore](https://www.npmjs.com/package/unistore) | ![npm](https://img.shields.io/npm/dw/unistore?color=white&label=%20&style=flat-square) |
-| Two Way | [MobX](http://localhost:3004/) | [Mobx](https://mobx.js.org/README.html) | ![npm](https://img.shields.io/npm/dw/mobx?color=white&label=%20&style=flat-square) |
-| Two Way | [Valtio](http://localhost:3005/) | [Valtio](https://www.npmjs.com/package/valtio) | ![npm](https://img.shields.io/npm/dw/valtio?color=white&label=%20&style=flat-square) |
-| Two Way | [MobX State Tree](http://localhost:3015/) | [Mobx State Tree](https://mobx-state-tree.js.org/) | ![npm](https://img.shields.io/npm/dw/mobx-state-tree?color=white&label=%20&style=flat-square) |
-| Two Way | [React Easy State](http://localhost:3019/) | [React Easy State](https://github.com/RisingStack/react-easy-state) | ![npm](https://img.shields.io/npm/dw/@risingstack/react-easy-state?color=white&label=%20&style=flat-square) |
+| Unidirectional | [Zustand](http://localhost:3002/) | [Zustand](https://zustand.surge.sh/) | ![npm](https://img.shields.io/npm/dw/zustand?color=white&label=%20&style=flat-square) |
+| Unidirectional | [Redux Toolkit](http://localhost:3003/) | [Redux Toolkit](https://redux-toolkit.js.org/) | ![npm](https://img.shields.io/npm/dw/@reduxjs/toolkit?color=white&label=%20&style=flat-square) |
+| Unidirectional | [Rematch](http://localhost:3017/) | [Rematch](https://rematchjs.org/) | ![npm](https://img.shields.io/npm/dw/@rematch/core?color=white&label=%20&style=flat-square) |
+| Unidirectional | [Unistore](http://localhost:3014/) | [Unistore](https://www.npmjs.com/package/unistore) | ![npm](https://img.shields.io/npm/dw/unistore?color=white&label=%20&style=flat-square) |
+| Bidirectional | [MobX](http://localhost:3004/) | [Mobx](https://mobx.js.org/README.html) | ![npm](https://img.shields.io/npm/dw/mobx?color=white&label=%20&style=flat-square) |
+| Bidirectional | [Valtio](http://localhost:3005/) | [Valtio](https://www.npmjs.com/package/valtio) | ![npm](https://img.shields.io/npm/dw/valtio?color=white&label=%20&style=flat-square) |
+| Bidirectional | [MobX State Tree](http://localhost:3015/) | [Mobx State Tree](https://mobx-state-tree.js.org/) | ![npm](https://img.shields.io/npm/dw/mobx-state-tree?color=white&label=%20&style=flat-square) |
+| Bidirectional | [React Easy State](http://localhost:3019/) | [React Easy State](https://github.com/RisingStack/react-easy-state) | ![npm](https://img.shields.io/npm/dw/@risingstack/react-easy-state?color=white&label=%20&style=flat-square) |
