@@ -30,3 +30,4 @@ State Manager Example Applications
 | Two Way | [MobX](http://localhost:3004/) | [Mobx](https://mobx.js.org/README.html) | ![npm](https://img.shields.io/npm/dw/mobx?color=white&label=%20&style=flat-square) |
 | Two Way | [Valtio](http://localhost:3005/) | [Valtio](https://www.npmjs.com/package/valtio) | ![npm](https://img.shields.io/npm/dw/valtio?color=white&label=%20&style=flat-square) |
 | Two Way | [MobX State Tree](http://localhost:3015/) | [Mobx State Tree](https://mobx-state-tree.js.org/) | ![npm](https://img.shields.io/npm/dw/mobx-state-tree?color=white&label=%20&style=flat-square) |
+| Two Way | [React Easy State](http://localhost:3019/) | [React Easy State](https://github.com/RisingStack/react-easy-state) | ![npm](https://img.shields.io/npm/dw/@risingstack/react-easy-state?color=white&label=%20&style=flat-square) |
