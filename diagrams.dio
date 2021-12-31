@@ -1,67 +1,358 @@
-<mxfile host="65bd71144e">
-    <diagram id="zhjIWJgLlE_qVi1C36BO" name="Page-1">
-        <mxGraphModel dx="951" dy="1694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="65bd71144e" scale="5" border="0">
+    <diagram id="z6UfUjqocPh35izzmCCC" name="figure1">
+        <mxGraphModel dx="1107" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="React Hooks" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
-                    <mxGeometry x="180" y="350" width="470" height="60" as="geometry"/>
+                <mxCell id="s84KEsUdOsrvq4arW7dX-0"/>
+                <mxCell id="s84KEsUdOsrvq4arW7dX-1" parent="s84KEsUdOsrvq4arW7dX-0"/>
+                <mxCell id="s84KEsUdOsrvq4arW7dX-2" value="Hooks" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=14;fontSize=24;" parent="s84KEsUdOsrvq4arW7dX-1" vertex="1">
+                    <mxGeometry x="100" y="260" width="630" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;One Way Binding&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/b&gt;(Redux, Zustand)" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;fontSize=14;" vertex="1" parent="1">
-                    <mxGeometry x="120" y="130" width="350" height="60" as="geometry"/>
+                <mxCell id="s84KEsUdOsrvq4arW7dX-3" value="useState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;" parent="s84KEsUdOsrvq4arW7dX-1" vertex="1">
+                    <mxGeometry x="110" y="270" width="140" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;Two Way Binding&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/b&gt;(MobX, Valtio)" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;fontSize=14;" vertex="1" parent="1">
-                    <mxGeometry x="200" y="130" width="350" height="60" as="geometry"/>
+                <mxCell id="s84KEsUdOsrvq4arW7dX-4" value="useReducer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;" parent="s84KEsUdOsrvq4arW7dX-1" vertex="1">
+                    <mxGeometry x="270" y="270" width="140" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;Atomic&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/b&gt;(Recoil, Jotai)" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;fontSize=14;" vertex="1" parent="1">
-                    <mxGeometry x="280" y="130" width="350" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="6" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;Finite State Machine&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/b&gt;(XState, UseStateMachine)" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;fontSize=14;" vertex="1" parent="1">
-                    <mxGeometry x="360" y="130" width="350" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="7" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;Route + (Forms) + API&lt;/b&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;(react-router, formik, react-query)" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;fontSize=14;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="130" width="350" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="8" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;Global state hooks&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;dashed=1;fontSize=14;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="130" width="350" height="60" as="geometry"/>
+                <mxCell id="s84KEsUdOsrvq4arW7dX-5" value="useEffect, useMemo,..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;" parent="s84KEsUdOsrvq4arW7dX-1" vertex="1">
+                    <mxGeometry x="425" y="270" width="140" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram id="dJc8anSpdkm6Mv4VJHVT" name="Page-2">
-        <mxGraphModel dx="951" dy="1694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <diagram id="AfON131OTbxBkmupz6B-" name="figure2">
+        <mxGraphModel dx="1107" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="uiYfvA5IEhfM-F31Nkuj-0"/>
+                <mxCell id="uiYfvA5IEhfM-F31Nkuj-1" parent="uiYfvA5IEhfM-F31Nkuj-0"/>
+                <mxCell id="uiYfvA5IEhfM-F31Nkuj-2" value="Hooks" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=14;fontSize=24;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="uiYfvA5IEhfM-F31Nkuj-1">
+                    <mxGeometry x="100" y="260" width="630" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="uiYfvA5IEhfM-F31Nkuj-3" value="useState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="uiYfvA5IEhfM-F31Nkuj-1">
+                    <mxGeometry x="110" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="uiYfvA5IEhfM-F31Nkuj-4" value="useReducer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="uiYfvA5IEhfM-F31Nkuj-1">
+                    <mxGeometry x="270" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="uiYfvA5IEhfM-F31Nkuj-5" value="useEffect, useMemo,..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="uiYfvA5IEhfM-F31Nkuj-1">
+                    <mxGeometry x="425" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="uiYfvA5IEhfM-F31Nkuj-6" value="&lt;b&gt;FSM&lt;/b&gt;&lt;br&gt;(XState)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;" vertex="1" parent="uiYfvA5IEhfM-F31Nkuj-1">
+                    <mxGeometry x="580" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="0lFpITdW0L74Cy2PTQ70" name="figure3">
+        <mxGraphModel dx="1107" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="zUdxDuY5DQwGVi8XhwRP-0"/>
+                <mxCell id="zUdxDuY5DQwGVi8XhwRP-1" parent="zUdxDuY5DQwGVi8XhwRP-0"/>
+                <mxCell id="zUdxDuY5DQwGVi8XhwRP-2" value="Hooks" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=14;fontSize=24;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="zUdxDuY5DQwGVi8XhwRP-1">
+                    <mxGeometry x="100" y="260" width="630" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="zUdxDuY5DQwGVi8XhwRP-3" value="useState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="zUdxDuY5DQwGVi8XhwRP-1">
+                    <mxGeometry x="110" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="zUdxDuY5DQwGVi8XhwRP-4" value="useReducer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="zUdxDuY5DQwGVi8XhwRP-1">
+                    <mxGeometry x="270" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="zUdxDuY5DQwGVi8XhwRP-5" value="useEffect, useMemo,..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="zUdxDuY5DQwGVi8XhwRP-1">
+                    <mxGeometry x="425" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="zUdxDuY5DQwGVi8XhwRP-6" value="&lt;b&gt;FSM&lt;/b&gt;&lt;br&gt;(XState)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;strokeColor=#666666;fontColor=#666666;" vertex="1" parent="zUdxDuY5DQwGVi8XhwRP-1">
+                    <mxGeometry x="580" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="zUdxDuY5DQwGVi8XhwRP-7" value="&lt;b&gt;API+&lt;/b&gt;&lt;br&gt;(React-Router, React-Query, Apollo-Client, React Hook Form)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;" vertex="1" parent="zUdxDuY5DQwGVi8XhwRP-1">
+                    <mxGeometry x="100" y="160" width="630" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="tEwhH4N8eBTKATh64wN3" name="figure4">
+        <mxGraphModel dx="1107" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="fzjjVAEnO_Apo01uk8fM-0"/>
+                <mxCell id="fzjjVAEnO_Apo01uk8fM-1" parent="fzjjVAEnO_Apo01uk8fM-0"/>
+                <mxCell id="fzjjVAEnO_Apo01uk8fM-2" value="Hooks" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=14;fontSize=24;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="fzjjVAEnO_Apo01uk8fM-1">
+                    <mxGeometry x="100" y="260" width="630" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="fzjjVAEnO_Apo01uk8fM-3" value="useState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="fzjjVAEnO_Apo01uk8fM-1">
+                    <mxGeometry x="110" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="fzjjVAEnO_Apo01uk8fM-4" value="useReducer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="fzjjVAEnO_Apo01uk8fM-1">
+                    <mxGeometry x="270" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="fzjjVAEnO_Apo01uk8fM-5" value="useEffect, useMemo,..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="fzjjVAEnO_Apo01uk8fM-1">
+                    <mxGeometry x="425" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="fzjjVAEnO_Apo01uk8fM-6" value="&lt;b&gt;FSM&lt;/b&gt;&lt;br&gt;(XState)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;strokeColor=#666666;fontColor=#666666;" vertex="1" parent="fzjjVAEnO_Apo01uk8fM-1">
+                    <mxGeometry x="580" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="fzjjVAEnO_Apo01uk8fM-7" value="&lt;b&gt;API+&lt;/b&gt;&lt;br&gt;(React-Router, React-Query, Apollo-Client, React Hook Form)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="fzjjVAEnO_Apo01uk8fM-1">
+                    <mxGeometry x="100" y="160" width="630" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="fzjjVAEnO_Apo01uk8fM-8" value="&lt;b&gt;Reactive&lt;/b&gt;&lt;br&gt;(Akita)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;" vertex="1" parent="fzjjVAEnO_Apo01uk8fM-1">
+                    <mxGeometry x="100" y="60" width="140" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="cmdH5Y4mz3taxQPGoTuN" name="figure5">
+        <mxGraphModel dx="1107" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="pGy9iOWIrRXkFm6hhpcQ-0"/>
+                <mxCell id="pGy9iOWIrRXkFm6hhpcQ-1" parent="pGy9iOWIrRXkFm6hhpcQ-0"/>
+                <mxCell id="pGy9iOWIrRXkFm6hhpcQ-2" value="Hooks" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=14;fontSize=24;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="pGy9iOWIrRXkFm6hhpcQ-1">
+                    <mxGeometry x="100" y="260" width="630" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="pGy9iOWIrRXkFm6hhpcQ-3" value="useState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="pGy9iOWIrRXkFm6hhpcQ-1">
+                    <mxGeometry x="110" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="pGy9iOWIrRXkFm6hhpcQ-4" value="useReducer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="pGy9iOWIrRXkFm6hhpcQ-1">
+                    <mxGeometry x="270" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="pGy9iOWIrRXkFm6hhpcQ-5" value="useEffect, useMemo,..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="pGy9iOWIrRXkFm6hhpcQ-1">
+                    <mxGeometry x="425" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="pGy9iOWIrRXkFm6hhpcQ-6" value="&lt;b&gt;FSM&lt;/b&gt;&lt;br&gt;(XState)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;strokeColor=#666666;fontColor=#666666;" vertex="1" parent="pGy9iOWIrRXkFm6hhpcQ-1">
+                    <mxGeometry x="580" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="pGy9iOWIrRXkFm6hhpcQ-7" value="&lt;b&gt;API+&lt;/b&gt;&lt;br&gt;(React-Router, React-Query, Apollo-Client, React Hook Form)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="pGy9iOWIrRXkFm6hhpcQ-1">
+                    <mxGeometry x="100" y="160" width="630" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="pGy9iOWIrRXkFm6hhpcQ-8" value="&lt;b&gt;Reactive&lt;/b&gt;&lt;br&gt;(Akita)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;strokeColor=#666666;fontColor=#666666;" vertex="1" parent="pGy9iOWIrRXkFm6hhpcQ-1">
+                    <mxGeometry x="100" y="60" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="pGy9iOWIrRXkFm6hhpcQ-9" value="&lt;b&gt;Atomic&lt;/b&gt;&lt;br&gt;(Recoil)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;" vertex="1" parent="pGy9iOWIrRXkFm6hhpcQ-1">
+                    <mxGeometry x="260" y="60" width="140" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="H_Suk2ZHCDd7Pcopg0vz" name="figure6">
+        <mxGraphModel dx="1107" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="e-Tw9dxSp7Ty-Jo_3CxJ-0"/>
+                <mxCell id="e-Tw9dxSp7Ty-Jo_3CxJ-1" parent="e-Tw9dxSp7Ty-Jo_3CxJ-0"/>
+                <mxCell id="e-Tw9dxSp7Ty-Jo_3CxJ-2" value="Hooks" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=14;fontSize=24;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="e-Tw9dxSp7Ty-Jo_3CxJ-1">
+                    <mxGeometry x="100" y="260" width="630" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-Tw9dxSp7Ty-Jo_3CxJ-3" value="useState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="e-Tw9dxSp7Ty-Jo_3CxJ-1">
+                    <mxGeometry x="110" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-Tw9dxSp7Ty-Jo_3CxJ-4" value="useReducer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="e-Tw9dxSp7Ty-Jo_3CxJ-1">
+                    <mxGeometry x="270" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-Tw9dxSp7Ty-Jo_3CxJ-5" value="useEffect, useMemo,..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="e-Tw9dxSp7Ty-Jo_3CxJ-1">
+                    <mxGeometry x="425" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-Tw9dxSp7Ty-Jo_3CxJ-6" value="&lt;b&gt;FSM&lt;/b&gt;&lt;br&gt;(XState)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;strokeColor=#666666;fontColor=#666666;" vertex="1" parent="e-Tw9dxSp7Ty-Jo_3CxJ-1">
+                    <mxGeometry x="580" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-Tw9dxSp7Ty-Jo_3CxJ-7" value="&lt;b&gt;API+&lt;/b&gt;&lt;br&gt;(React-Router, React-Query, Apollo-Client, React Hook Form)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="e-Tw9dxSp7Ty-Jo_3CxJ-1">
+                    <mxGeometry x="100" y="160" width="630" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-Tw9dxSp7Ty-Jo_3CxJ-8" value="&lt;b&gt;Reactive&lt;/b&gt;&lt;br&gt;(Akita)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;strokeColor=#666666;fontColor=#666666;" vertex="1" parent="e-Tw9dxSp7Ty-Jo_3CxJ-1">
+                    <mxGeometry x="100" y="60" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-Tw9dxSp7Ty-Jo_3CxJ-9" value="&lt;b&gt;Atomic&lt;/b&gt;&lt;br&gt;(Recoil)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="e-Tw9dxSp7Ty-Jo_3CxJ-1">
+                    <mxGeometry x="260" y="60" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-Tw9dxSp7Ty-Jo_3CxJ-10" value="&lt;b&gt;One Way&lt;/b&gt;&lt;br&gt;(Redux)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;" vertex="1" parent="e-Tw9dxSp7Ty-Jo_3CxJ-1">
+                    <mxGeometry x="420" y="60" width="140" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="B-GsGmaVs9jNdapbzeZA" name="figure7">
+        <mxGraphModel dx="1107" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="qmo9LTuV7M_hFc-IhWTg-0"/>
+                <mxCell id="qmo9LTuV7M_hFc-IhWTg-1" parent="qmo9LTuV7M_hFc-IhWTg-0"/>
+                <mxCell id="qmo9LTuV7M_hFc-IhWTg-2" value="Hooks" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=14;fontSize=24;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="qmo9LTuV7M_hFc-IhWTg-1">
+                    <mxGeometry x="100" y="260" width="630" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="qmo9LTuV7M_hFc-IhWTg-3" value="useState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="qmo9LTuV7M_hFc-IhWTg-1">
+                    <mxGeometry x="110" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="qmo9LTuV7M_hFc-IhWTg-4" value="useReducer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="qmo9LTuV7M_hFc-IhWTg-1">
+                    <mxGeometry x="270" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="qmo9LTuV7M_hFc-IhWTg-5" value="useEffect, useMemo,..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="qmo9LTuV7M_hFc-IhWTg-1">
+                    <mxGeometry x="425" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="qmo9LTuV7M_hFc-IhWTg-6" value="&lt;b&gt;FSM&lt;/b&gt;&lt;br&gt;(XState)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;strokeColor=#666666;fontColor=#666666;" vertex="1" parent="qmo9LTuV7M_hFc-IhWTg-1">
+                    <mxGeometry x="580" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="qmo9LTuV7M_hFc-IhWTg-7" value="&lt;b&gt;API+&lt;/b&gt;&lt;br&gt;(React-Router, React-Query, Apollo-Client, React Hook Form)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="qmo9LTuV7M_hFc-IhWTg-1">
+                    <mxGeometry x="100" y="160" width="630" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="qmo9LTuV7M_hFc-IhWTg-8" value="&lt;b&gt;Reactive&lt;/b&gt;&lt;br&gt;(Akita)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;strokeColor=#666666;fontColor=#666666;" vertex="1" parent="qmo9LTuV7M_hFc-IhWTg-1">
+                    <mxGeometry x="100" y="60" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="qmo9LTuV7M_hFc-IhWTg-9" value="&lt;b&gt;Atomic&lt;/b&gt;&lt;br&gt;(Recoil)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="qmo9LTuV7M_hFc-IhWTg-1">
+                    <mxGeometry x="260" y="60" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="qmo9LTuV7M_hFc-IhWTg-10" value="&lt;b&gt;One Way&lt;/b&gt;&lt;br&gt;(Redux)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;strokeColor=#666666;fontColor=#666666;" vertex="1" parent="qmo9LTuV7M_hFc-IhWTg-1">
+                    <mxGeometry x="420" y="60" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="qmo9LTuV7M_hFc-IhWTg-11" value="&lt;b&gt;Two Way&lt;/b&gt;&lt;br&gt;(MobX)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;" vertex="1" parent="qmo9LTuV7M_hFc-IhWTg-1">
+                    <mxGeometry x="580" y="60" width="150" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="PKxDmmA1Fn9lev6frWbh" name="figure8">
+        <mxGraphModel dx="1107" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="odU79riricn-tdp25fdZ-0"/>
+                <mxCell id="odU79riricn-tdp25fdZ-1" parent="odU79riricn-tdp25fdZ-0"/>
+                <mxCell id="odU79riricn-tdp25fdZ-2" value="Hooks" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=14;fontSize=24;strokeColor=#FFFFFF;" vertex="1" parent="odU79riricn-tdp25fdZ-1">
+                    <mxGeometry x="100" y="260" width="630" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="odU79riricn-tdp25fdZ-3" value="useState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeColor=#FFFFFF;" vertex="1" parent="odU79riricn-tdp25fdZ-1">
+                    <mxGeometry x="110" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="odU79riricn-tdp25fdZ-4" value="useReducer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeColor=#FFFFFF;" vertex="1" parent="odU79riricn-tdp25fdZ-1">
+                    <mxGeometry x="270" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="odU79riricn-tdp25fdZ-5" value="useEffect, useMemo,..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeColor=#FFFFFF;" vertex="1" parent="odU79riricn-tdp25fdZ-1">
+                    <mxGeometry x="425" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="odU79riricn-tdp25fdZ-6" value="&lt;b&gt;FSM&lt;/b&gt;&lt;br&gt;(XState)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;strokeColor=#FFFFFF;" vertex="1" parent="odU79riricn-tdp25fdZ-1">
+                    <mxGeometry x="580" y="270" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="odU79riricn-tdp25fdZ-7" value="&lt;b&gt;API+&lt;/b&gt;&lt;br&gt;(React-Router, React-Query, Apollo-Client, React Hook Form)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;strokeColor=#FFFFFF;" vertex="1" parent="odU79riricn-tdp25fdZ-1">
+                    <mxGeometry x="100" y="160" width="630" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="odU79riricn-tdp25fdZ-8" value="&lt;b&gt;Reactive&lt;/b&gt;&lt;br&gt;(Akita)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;strokeColor=#FFFFFF;" vertex="1" parent="odU79riricn-tdp25fdZ-1">
+                    <mxGeometry x="100" y="60" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="odU79riricn-tdp25fdZ-9" value="&lt;b&gt;Atomic&lt;/b&gt;&lt;br&gt;(Recoil)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;strokeColor=#FFFFFF;" vertex="1" parent="odU79riricn-tdp25fdZ-1">
+                    <mxGeometry x="260" y="60" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="odU79riricn-tdp25fdZ-10" value="&lt;b&gt;One Way&lt;/b&gt;&lt;br&gt;(Redux)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;strokeColor=#FFFFFF;" vertex="1" parent="odU79riricn-tdp25fdZ-1">
+                    <mxGeometry x="420" y="60" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="odU79riricn-tdp25fdZ-11" value="&lt;b&gt;Two Way&lt;/b&gt;&lt;br&gt;(MobX)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;strokeColor=#FFFFFF;" vertex="1" parent="odU79riricn-tdp25fdZ-1">
+                    <mxGeometry x="580" y="60" width="150" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="dJc8anSpdkm6Mv4VJHVT" name="figure9">
+        <mxGraphModel dx="1107" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="KYumAWD2jmOjepShmz3H-0"/>
                 <mxCell id="KYumAWD2jmOjepShmz3H-1" parent="KYumAWD2jmOjepShmz3H-0"/>
-                <mxCell id="KYumAWD2jmOjepShmz3H-14" value="&lt;font style=&quot;font-size: 21px&quot;&gt;React&lt;br&gt;Global&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#005700;verticalAlign=top;align=left;fontColor=#000000;spacingTop=2;spacingBottom=2;spacingLeft=6;fillColor=#CCFFFF;" vertex="1" parent="KYumAWD2jmOjepShmz3H-1">
+                <mxCell id="KYumAWD2jmOjepShmz3H-14" value="&lt;font style=&quot;font-size: 21px&quot;&gt;React&lt;br&gt;Global&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#005700;verticalAlign=top;align=left;fontColor=#000000;spacingTop=2;spacingBottom=2;spacingLeft=6;fillColor=#CCFFFF;" parent="KYumAWD2jmOjepShmz3H-1" vertex="1">
                     <mxGeometry x="70" y="110" width="590" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="KYumAWD2jmOjepShmz3H-15" value="&lt;span style=&quot;font-size: 21px&quot;&gt;Global&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#005700;verticalAlign=top;align=left;fontColor=#000000;spacingTop=2;spacingBottom=2;spacingLeft=6;fillColor=#FFE6CC;" vertex="1" parent="KYumAWD2jmOjepShmz3H-1">
+                <mxCell id="KYumAWD2jmOjepShmz3H-15" value="&lt;span style=&quot;font-size: 21px&quot;&gt;Global&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#005700;verticalAlign=top;align=left;fontColor=#000000;spacingTop=2;spacingBottom=2;spacingLeft=6;fillColor=#FFE6CC;" parent="KYumAWD2jmOjepShmz3H-1" vertex="1">
                     <mxGeometry x="70" y="-10" width="590" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="KYumAWD2jmOjepShmz3H-8" value="&lt;font style=&quot;font-size: 21px&quot;&gt;React&lt;br&gt;Local&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#005700;fillColor=#CCFF99;verticalAlign=top;align=left;fontColor=#000000;spacingTop=2;spacingBottom=2;spacingLeft=6;" vertex="1" parent="KYumAWD2jmOjepShmz3H-1">
+                <mxCell id="KYumAWD2jmOjepShmz3H-8" value="&lt;font style=&quot;font-size: 21px&quot;&gt;React&lt;br&gt;Local&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#005700;fillColor=#CCFF99;verticalAlign=top;align=left;fontColor=#000000;spacingTop=2;spacingBottom=2;spacingLeft=6;" parent="KYumAWD2jmOjepShmz3H-1" vertex="1">
                     <mxGeometry x="70" y="230" width="590" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="KYumAWD2jmOjepShmz3H-2" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;One Way Binding&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal; font-size: 15px;&quot;&gt;(Redux, Zustand)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;fontStyle=1;fontSize=15;" vertex="1" parent="KYumAWD2jmOjepShmz3H-1">
-                    <mxGeometry x="180" y="70" width="230" height="60" as="geometry"/>
+                <mxCell id="KYumAWD2jmOjepShmz3H-3" value="&lt;span style=&quot;font-size: 15px&quot;&gt;Two Way&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;fontStyle=1;fontSize=15;" parent="KYumAWD2jmOjepShmz3H-1" vertex="1">
+                    <mxGeometry x="500" y="70" width="230" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="KYumAWD2jmOjepShmz3H-3" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Two Way Binding&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal; font-size: 15px;&quot;&gt;(MobX, Valtio)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;fontStyle=1;fontSize=15;" vertex="1" parent="KYumAWD2jmOjepShmz3H-1">
-                    <mxGeometry x="260" y="70" width="230" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="KYumAWD2jmOjepShmz3H-16" value="" style="edgeStyle=none;html=1;fontColor=#000000;" edge="1" parent="KYumAWD2jmOjepShmz3H-1" source="KYumAWD2jmOjepShmz3H-4" target="KYumAWD2jmOjepShmz3H-15">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="KYumAWD2jmOjepShmz3H-4" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Atomic&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal; font-size: 15px;&quot;&gt;(Recoil, Jotai)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;fontStyle=1;fontSize=15;" vertex="1" parent="KYumAWD2jmOjepShmz3H-1">
+                <mxCell id="KYumAWD2jmOjepShmz3H-4" value="&lt;span style=&quot;font-size: 15px&quot;&gt;Atomic&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;fontStyle=1;fontSize=15;" parent="KYumAWD2jmOjepShmz3H-1" vertex="1">
                     <mxGeometry x="280" y="130" width="350" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="KYumAWD2jmOjepShmz3H-5" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Finite State Machine&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal; font-size: 15px;&quot;&gt;(XState, UseStateMachine)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;fontStyle=1;fontSize=15;" vertex="1" parent="KYumAWD2jmOjepShmz3H-1">
-                    <mxGeometry x="360" y="130" width="350" height="60" as="geometry"/>
+                <mxCell id="KYumAWD2jmOjepShmz3H-5" value="&lt;span style=&quot;font-size: 15px&quot;&gt;Finite State Machine&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;fontStyle=1;fontSize=15;" parent="KYumAWD2jmOjepShmz3H-1" vertex="1">
+                    <mxGeometry x="180" y="190" width="230" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="KYumAWD2jmOjepShmz3H-6" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Route + (Forms) + API&lt;/span&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 15px;&quot;&gt;(react-router, formik, react-query)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;fontStyle=1;fontSize=15;" vertex="1" parent="KYumAWD2jmOjepShmz3H-1">
-                    <mxGeometry x="500" y="190" width="230" height="60" as="geometry"/>
+                <mxCell id="KYumAWD2jmOjepShmz3H-6" value="API+" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;fontStyle=1;fontSize=15;" parent="KYumAWD2jmOjepShmz3H-1" vertex="1">
+                    <mxGeometry x="260" y="190" width="230" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="KYumAWD2jmOjepShmz3H-7" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Global state hooks&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;dashed=1;fontStyle=1;fontSize=15;" vertex="1" parent="KYumAWD2jmOjepShmz3H-1">
+                <mxCell id="KYumAWD2jmOjepShmz3H-7" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Global state hooks&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;dashed=1;fontStyle=1;fontSize=15;" parent="KYumAWD2jmOjepShmz3H-1" vertex="1">
                     <mxGeometry x="100" y="190" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="w3K-LMiMbB8UF25G2px2-0" value="&lt;span style=&quot;font-size: 15px&quot;&gt;One Way&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=270;fontStyle=1;fontSize=15;" vertex="1" parent="KYumAWD2jmOjepShmz3H-1">
+                    <mxGeometry x="420" y="70" width="230" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="xp2IfM6mq4xPR8G4xQs5" name="figure10">
+        <mxGraphModel dx="1107" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="fBiq-wiDlhf_wD9__1f_-0"/>
+                <mxCell id="fBiq-wiDlhf_wD9__1f_-1" parent="fBiq-wiDlhf_wD9__1f_-0"/>
+                <mxCell id="Mi_jeX4nZOK84LuzRY0e-0" value="Hooks" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=14;fontSize=24;fontColor=#666666;strokeColor=#666666;" parent="fBiq-wiDlhf_wD9__1f_-1" vertex="1">
+                    <mxGeometry x="100" y="350" width="630" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="Mi_jeX4nZOK84LuzRY0e-1" value="useState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" parent="fBiq-wiDlhf_wD9__1f_-1" vertex="1">
+                    <mxGeometry x="110" y="360" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Mi_jeX4nZOK84LuzRY0e-2" value="useReducer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" parent="fBiq-wiDlhf_wD9__1f_-1" vertex="1">
+                    <mxGeometry x="270" y="360" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Mi_jeX4nZOK84LuzRY0e-3" value="useEffect, useMemo,..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" parent="fBiq-wiDlhf_wD9__1f_-1" vertex="1">
+                    <mxGeometry x="425" y="360" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Mi_jeX4nZOK84LuzRY0e-4" value="&lt;b&gt;FSM&lt;/b&gt;&lt;br&gt;(XState)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;fontColor=#666666;strokeColor=#666666;fillColor=none;" parent="fBiq-wiDlhf_wD9__1f_-1" vertex="1">
+                    <mxGeometry x="580" y="360" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Mi_jeX4nZOK84LuzRY0e-5" value="&lt;b&gt;API+&lt;/b&gt;&lt;br&gt;(React-Router, React-Query, Apollo-Client, React Hook Form)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;fontColor=#666666;strokeColor=#666666;" parent="fBiq-wiDlhf_wD9__1f_-1" vertex="1">
+                    <mxGeometry x="100" y="250" width="630" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Mi_jeX4nZOK84LuzRY0e-6" value="&lt;b&gt;Reactive&lt;/b&gt;&lt;br&gt;(Akita)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;fontColor=#666666;strokeColor=#666666;" parent="fBiq-wiDlhf_wD9__1f_-1" vertex="1">
+                    <mxGeometry x="100" y="50" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Mi_jeX4nZOK84LuzRY0e-7" value="&lt;b&gt;Atomic&lt;/b&gt;&lt;br&gt;(Recoil)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;fontColor=#666666;strokeColor=#666666;" parent="fBiq-wiDlhf_wD9__1f_-1" vertex="1">
+                    <mxGeometry x="260" y="50" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Mi_jeX4nZOK84LuzRY0e-8" value="&lt;b&gt;One Way&lt;/b&gt;&lt;br&gt;(Redux)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;fontColor=#666666;strokeColor=#666666;" parent="fBiq-wiDlhf_wD9__1f_-1" vertex="1">
+                    <mxGeometry x="420" y="50" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Mi_jeX4nZOK84LuzRY0e-9" value="&lt;b&gt;Two Way&lt;/b&gt;&lt;br&gt;(MobX)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;fontColor=#666666;strokeColor=#666666;" parent="fBiq-wiDlhf_wD9__1f_-1" vertex="1">
+                    <mxGeometry x="580" y="50" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Mi_jeX4nZOK84LuzRY0e-10" value="&lt;b&gt;Business Logic&lt;/b&gt;&lt;br&gt;(Custom Library)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;" parent="fBiq-wiDlhf_wD9__1f_-1" vertex="1">
+                    <mxGeometry x="100" y="150" width="630" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="T9EmnD1B8LxKhflSWada" name="figure11">
+        <mxGraphModel dx="1107" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="g6KCUXXH83qVAr2UijBO-0"/>
+                <mxCell id="g6KCUXXH83qVAr2UijBO-1" parent="g6KCUXXH83qVAr2UijBO-0"/>
+                <mxCell id="g6KCUXXH83qVAr2UijBO-2" value="Hooks" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=14;fontSize=24;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="g6KCUXXH83qVAr2UijBO-1">
+                    <mxGeometry x="100" y="540" width="630" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="g6KCUXXH83qVAr2UijBO-3" value="useState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="g6KCUXXH83qVAr2UijBO-1">
+                    <mxGeometry x="110" y="550" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="g6KCUXXH83qVAr2UijBO-4" value="useReducer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="g6KCUXXH83qVAr2UijBO-1">
+                    <mxGeometry x="270" y="550" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="g6KCUXXH83qVAr2UijBO-5" value="useEffect, useMemo,..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="g6KCUXXH83qVAr2UijBO-1">
+                    <mxGeometry x="425" y="550" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="g6KCUXXH83qVAr2UijBO-6" value="&lt;b&gt;FSM&lt;/b&gt;&lt;br&gt;(XState)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;fontColor=#f0f0f0;strokeColor=#f0f0f0;fillColor=none;" vertex="1" parent="g6KCUXXH83qVAr2UijBO-1">
+                    <mxGeometry x="580" y="550" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="g6KCUXXH83qVAr2UijBO-7" value="&lt;b&gt;API+&lt;/b&gt;&lt;br&gt;(React-Router, React-Query, Apollo-Client, React Hook Form)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="g6KCUXXH83qVAr2UijBO-1">
+                    <mxGeometry x="100" y="440" width="630" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="g6KCUXXH83qVAr2UijBO-8" value="&lt;b&gt;Reactive&lt;/b&gt;&lt;br&gt;(Akita)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="g6KCUXXH83qVAr2UijBO-1">
+                    <mxGeometry x="100" y="240" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="g6KCUXXH83qVAr2UijBO-9" value="&lt;b&gt;Atomic&lt;/b&gt;&lt;br&gt;(Recoil)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;fontColor=#666666;strokeColor=#666666;" vertex="1" parent="g6KCUXXH83qVAr2UijBO-1">
+                    <mxGeometry x="260" y="240" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="g6KCUXXH83qVAr2UijBO-10" value="&lt;b&gt;One Way&lt;/b&gt;&lt;br&gt;(Redux)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;" vertex="1" parent="g6KCUXXH83qVAr2UijBO-1">
+                    <mxGeometry x="420" y="240" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="g6KCUXXH83qVAr2UijBO-11" value="&lt;b&gt;Two Way&lt;/b&gt;&lt;br&gt;(MobX)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;fontColor=#f0f0f0;strokeColor=#f0f0f0;" vertex="1" parent="g6KCUXXH83qVAr2UijBO-1">
+                    <mxGeometry x="580" y="240" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="g6KCUXXH83qVAr2UijBO-12" value="&lt;b&gt;Business Logic&lt;/b&gt;&lt;br&gt;(Custom Library)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;verticalAlign=middle;strokeWidth=3;fillColor=#2a2a2a;fontColor=#f0f0f0;strokeColor=#f0f0f0;" vertex="1" parent="g6KCUXXH83qVAr2UijBO-1">
+                    <mxGeometry x="100" y="340" width="630" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
