@@ -9,7 +9,7 @@ type StopwatchContext = {
 };
 
 const stopwatchMachine = createMachine<StopwatchContext, StopwatchEvent>({
-  id: "toggle",
+  id: "stopwatch",
   initial: "stopped",
   context: {
     seconds: 0,
