@@ -3,7 +3,6 @@ import {
   createSlice,
   PayloadAction,
   createAsyncThunk,
-  unwrapResult,
 } from "@reduxjs/toolkit";
 
 const stopwatchSlice = createSlice({

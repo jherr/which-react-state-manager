@@ -6,10 +6,6 @@ import {
   guard,
 } from "effector";
 
-export const toggle = createEvent();
-
-export const $seconds = createStore(0);
-
 export const $running = createStore(false);
 
 const getNamesFx = createEffect(async () => {
@@ -22,13 +18,17 @@ export const $names = createStore<string[]>([]).on(
   (_, names) => names
 );
 
-$running.on(toggle, (state) => !state);
-
-guard({ source: $seconds, filter: (state) => state > 2, target: getNamesFx });
+export const $seconds = createStore(0);
 
 const { increment } = createApi($seconds, {
   increment: (state) => state + 0.1,
 });
+
+guard({ source: $seconds, filter: (state) => state > 2, target: getNamesFx });
+
+export const toggle = createEvent();
+
+$running.on(toggle, (state) => !state);
 
 let timer: number | undefined = undefined;
 $running.watch((running) => {

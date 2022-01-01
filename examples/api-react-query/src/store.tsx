@@ -21,7 +21,7 @@ const useApplicationState = (): ApplicationState => {
   const { data } = useQuery<{
     names: string[];
   }>("names", () => fetch("/names.json").then((res) => res.json()), {
-    enabled: running && seconds > 2,
+    enabled: seconds > 2,
   });
 
   useInterval(
@@ -39,7 +39,7 @@ const useApplicationState = (): ApplicationState => {
 
 const queryClient = new QueryClient();
 
-const InternalContextProvider: React.FunctionComponent = ({ children }) => (
+const StopwatchContextProvider: React.FunctionComponent = ({ children }) => (
   <ApplicationContext.Provider value={useApplicationState()}>
     {children}
   </ApplicationContext.Provider>
@@ -49,7 +49,7 @@ export const ApplicationContextProvider: React.FunctionComponent = ({
   children,
 }) => (
   <QueryClientProvider client={queryClient}>
-    <InternalContextProvider>{children}</InternalContextProvider>
+    <StopwatchContextProvider>{children}</StopwatchContextProvider>
   </QueryClientProvider>
 );
 

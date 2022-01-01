@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+
+import { useApplicationState } from "./store";
 
 const TimerDisplay: React.FunctionComponent<{
   seconds: number;
@@ -34,37 +36,15 @@ const Names: React.FunctionComponent<{
   ) : null;
 
 function App() {
-  const [seconds, setSeconds] = useState(0);
-  const [running, setRunning] = useState(false);
-  const [data, setData] = useState<{
-    names: string[];
-  }>();
-
-  useEffect(() => {
-    if (running) {
-      const timer = setInterval(() => {
-        setSeconds((seconds) => seconds + 0.1);
-      }, 100);
-      return () => clearInterval(timer);
-    }
-  }, [running]);
-
-  useEffect(() => {
-    if (seconds > 2) {
-      fetch("/names.json")
-        .then((res) => res.json())
-        .then((data) => setData(data));
-    }
-  }, [seconds > 2]);
-
+  const { seconds, running, names, onToggle } = useApplicationState();
   return (
     <div className="mt-10 mx-auto max-w-3xl">
       <h1 className="font-bold text-5xl mb-5 border-b-2 border-gray-800">
         Hooks - Prop Drilling
       </h1>
       <TimerDisplay seconds={seconds} />
-      <TimerToggle running={running} onToggle={() => setRunning(!running)} />
-      <Names names={data?.names} />
+      <TimerToggle running={running} onToggle={onToggle} />
+      <Names names={names} />
     </div>
   );
 }

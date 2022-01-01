@@ -6,8 +6,8 @@ export const secondsAtom = atom(0);
 
 const incrementSecondsAtom = atom(
   (get) => get(secondsAtom),
-  async (get, set) => {
-    set(secondsAtom, get(secondsAtom) + 0.1);
+  async (get, set, amount: number) => {
+    set(secondsAtom, get(secondsAtom) + amount);
 
     if (get(secondsAtom) > 2 && !get(namesAtom)) {
       const response = await fetch("/names.json");
@@ -30,7 +30,7 @@ export const runningAtom = atom(
       set(
         timerRefAtom,
         window.setInterval(() => {
-          set(incrementSecondsAtom, undefined);
+          set(incrementSecondsAtom, 0.1);
         }, 100)
       );
     }

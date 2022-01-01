@@ -4,20 +4,26 @@ import {
   useRecoilState,
   useSetRecoilState,
   useRecoilValue,
+  selector,
 } from "recoil";
 
-export const namesAtom = atom<string[] | undefined>({
-  key: "names",
+const namesValueAtom = atom<string[] | undefined>({
+  key: "namesValue",
   default: undefined,
 });
 
 export const secondsAtom = atom({ key: "seconds", default: 0 });
 
+export const namesAtom = selector({
+  key: "namesAtom",
+  get: ({ get }) => (get(secondsAtom) > 2.0 ? get(namesValueAtom) : ""),
+});
+
 export const runningAtom = atom({ key: "running", default: false });
 
 export const useStopwatch = () => {
   const [seconds, setSeconds] = useRecoilState(secondsAtom);
-  const setNames = useSetRecoilState(namesAtom);
+  const setNames = useSetRecoilState(namesValueAtom);
   const running = useRecoilValue(runningAtom);
 
   useEffect(() => {
