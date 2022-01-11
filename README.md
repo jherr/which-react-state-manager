@@ -25,6 +25,7 @@ State Manager Example Applications
 | Reactive | [Storeon](http://localhost:3020/) | [Storeon](https://github.com/storeon/storeon) | ![npm](https://img.shields.io/npm/dw/storeon?color=white&label=%20&style=flat-square) |
 | Atomic | [Jotai](http://localhost:3006/) | [Jotai](https://github.com/pmndrs/jotai) | ![npm](https://img.shields.io/npm/dw/jotai?color=white&label=%20&style=flat-square) |
 | Atomic | [Recoil](http://localhost:3009/) | [Recoil](https://recoiljs.org/) | ![npm](https://img.shields.io/npm/dw/recoil?color=white&label=%20&style=flat-square) |
+| Atomic | [AgileTs](http://localhost:3099/) | [AgileTs](https://agile-ts.org/) | ![npm](https://img.shields.io/npm/dw/@agile-ts/core?color=white&label=%20&style=flat-square) |
 | Unidirectional | [Zustand](http://localhost:3002/) | [Zustand](https://zustand.surge.sh/) | ![npm](https://img.shields.io/npm/dw/zustand?color=white&label=%20&style=flat-square) |
 | Unidirectional | [Redux Toolkit](http://localhost:3003/) | [Redux Toolkit](https://redux-toolkit.js.org/) | ![npm](https://img.shields.io/npm/dw/@reduxjs/toolkit?color=white&label=%20&style=flat-square) |
 | Unidirectional | [Rematch](http://localhost:3017/) | [Rematch](https://rematchjs.org/) | ![npm](https://img.shields.io/npm/dw/@rematch/core?color=white&label=%20&style=flat-square) |

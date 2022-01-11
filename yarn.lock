@@ -2,6 +2,23 @@
 # yarn lockfile v1
 
 
+"@agile-ts/core@^0.2.8":
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/@agile-ts/core/-/core-0.2.8.tgz#ba6c55978de0da670265a3e4157ebe2193a2628b"
+  integrity sha512-Zqe8ndtC4wBmDAEXwjL7sUkubvX6xR6ed8jcJnTX7mCKOccIjXmfSqJJPJNCIuUkV32lAcbuA+D3raU4ZGwtqg==
+  dependencies:
+    "@agile-ts/utils" "^0.0.11"
+
+"@agile-ts/react@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@agile-ts/react/-/react-0.2.3.tgz#d01472b3ca8210976aad945e64bf611ab1cd5e7a"
+  integrity sha512-sDY5PZulGa2+d8fTnVKWzqDGxBktOU51INJ+ZMM89J9V+2KRs26/sEYnUivk/6vJFyA6t//R0+OQ0yGZCqTeLA==
+
+"@agile-ts/utils@^0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@agile-ts/utils/-/utils-0.0.11.tgz#3680407e92528f0e372af28983872c20b80b395c"
+  integrity sha512-tbrlXbo3ukoODodl4Og99BG/glhk9NUO09LJ7qdQ25/coL13lNzQQix9Z5IFohEIeJ71Y4ZIGzJmmui29FxTKA==
+
 "@angular-devkit/core@8.3.29", "@angular-devkit/core@^8.3.8":
   version "8.3.29"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-8.3.29.tgz#3477edd6458653f83e6d78684b100c1bef81382f"

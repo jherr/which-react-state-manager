@@ -37,7 +37,7 @@ const Names: React.FunctionComponent = () => {
 };
 
 const App: React.FunctionComponent = () => {
-  useStopwatch();
+
   return (
     <div className="mt-10 mx-auto max-w-3xl">
       <h1 className="font-bold text-5xl mb-5 border-b-2 border-gray-800">
