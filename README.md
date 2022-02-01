@@ -1,6 +1,10 @@
 State Manager Example Applications
 ===============================
 
+## YouTube Video
+[![YouTube Video](https://img.youtube.com/vi/P95DuIBwnqw/0.jpg)](https://youtu.be/P95DuIBwnqw)
+
+
 # Installation and startup
 
 ```sh
