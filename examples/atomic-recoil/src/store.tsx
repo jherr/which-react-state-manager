@@ -25,7 +25,6 @@ export const useStopwatch = () => {
   const [seconds, setSeconds] = useRecoilState(secondsAtom);
   const setNames = useSetRecoilState(namesValueAtom);
   const running = useRecoilValue(runningAtom);
-  useStopwatch();
   useEffect(() => {
     if (seconds > 2) {
       fetch("/names.json")
