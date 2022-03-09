@@ -30,7 +30,7 @@ class ApplicationStore {
 
   increment() {
     this.seconds += 0.1;
-    if (this.seconds > 2) {
+    if (this.seconds > 2 && !this.names) {
       fetch("/names.json")
         .then((res) => res.json())
         .then(({ names }) => this.setNames(names));
