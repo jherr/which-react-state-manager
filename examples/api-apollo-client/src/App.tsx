@@ -1,7 +1,7 @@
-import { useApplicationContext, ApplicationContextProvider } from "./store";
+import { useApplicationState, ApplicationContextProvider } from "./store";
 
 const TimerDisplay: React.FunctionComponent = () => {
-  const { seconds } = useApplicationContext();
+  const { seconds } = useApplicationState();
   return (
     <div className="text-3xl">
       <span className="mr-5 font-bold">Stopwatch:</span>
@@ -11,7 +11,7 @@ const TimerDisplay: React.FunctionComponent = () => {
 };
 
 const TimerToggle: React.FunctionComponent = () => {
-  const { running, onToggle } = useApplicationContext();
+  const { running, onToggle } = useApplicationState();
   return (
     <div className="my-5">
       <button
@@ -25,7 +25,7 @@ const TimerToggle: React.FunctionComponent = () => {
 };
 
 const Names: React.FunctionComponent = () => {
-  const { names } = useApplicationContext();
+  const { names } = useApplicationState();
   return names ? (
     <>
       <div className="text-3xl font-bold mb-5">Data</div>

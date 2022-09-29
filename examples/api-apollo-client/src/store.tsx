@@ -1,6 +1,5 @@
-import React, { useState, createContext, useContext } from "react";
-import { QueryClient, QueryClientProvider, useQuery } from "react-query";
-import { useInterval } from "react-use";
+import { InMemoryCache, makeVar, useReactiveVar, useQuery, gql, QueryHookOptions, ApolloProvider, ApolloClient, HttpLink } from "@apollo/client";
+import { useInterval } from "react-use"
 
 interface ApplicationState {
   seconds: number;
@@ -9,48 +8,92 @@ interface ApplicationState {
   onToggle: () => void;
 }
 
-const ApplicationContext = createContext<ApplicationState>({
-  seconds: 0,
-  running: false,
-  onToggle: () => {},
+export const cache: InMemoryCache = new InMemoryCache({
+  typePolicies: {
+    Query: {
+      fields: {
+        running: {
+          read () {
+            return runningVar();
+          }
+        },
+        seconds: {
+          read () {
+            return secondsVar();
+          }
+        },
+      }
+    }
+  }
 });
 
-const useApplicationState = (): ApplicationState => {
-  const [seconds, setSeconds] = useState(0);
-  const [running, setRunning] = useState(false);
-  const { data } = useQuery<{
-    names: string[];
-  }>("names", () => fetch("/names.json").then((res) => res.json()), {
-    enabled: seconds > 2,
-  });
+const runningVar = makeVar(false);
+const secondsVar = makeVar(0);
+
+const GET_NAMES = gql`
+  query GetNames {
+    names
+  }
+`
+
+interface Names {
+  names?: string[];
+}
+
+// export const useGetNamesQuery = (options?: QueryHookOptions) => {
+//   const seconds = useReactiveVar(secondsVar)
+//   console.log('seconds', seconds, seconds < 2)
+//   return useQuery<Names>(GET_NAMES, {
+//     skip: seconds < 2,
+//     ...options,
+//     onCompleted(data) {
+//       console.log('completed', data)
+//     }
+//   })
+// }
+
+export const useApplicationState = (): ApplicationState => {
+  const seconds = useReactiveVar(secondsVar);
+  const running = useReactiveVar(runningVar);
+  // console.log('seconds', seconds, seconds < 2)
+  const { data } = useQuery<Names>(GET_NAMES, {
+    skip: seconds < 2,
+  })
+  // console.log('data:', data)
 
   useInterval(
-    () => setSeconds((seconds) => seconds + 0.1),
+    () => secondsVar(secondsVar() + 0.1),
     running ? 100 : null
   );
 
   return {
     seconds,
     running,
-    onToggle: () => setRunning((running) => !running),
+    onToggle: () => {
+      runningVar(!runningVar())
+    },
     names: data?.names,
   };
 };
 
-const queryClient = new QueryClient();
+// const link = new HttpLink({
+//   uri: 'http://localhost:3022/graphql',
+//   fetch,
+//   // Use explicit `window.fetch` so tha outgoing requests
+//   // are captured and deferred until the Service Worker is ready.
+//   // fetch: (...args) => fetch(...args),
+// })
 
-const StopwatchContextProvider: React.FunctionComponent = ({ children }) => (
-  <ApplicationContext.Provider value={useApplicationState()}>
-    {children}
-  </ApplicationContext.Provider>
-);
+export const client = new ApolloClient({
+  uri: 'http://localhost:3022/graphql',
+  cache,
+  connectToDevTools: false,
+});
 
 export const ApplicationContextProvider: React.FunctionComponent = ({
   children,
 }) => (
-  <QueryClientProvider client={queryClient}>
-    <StopwatchContextProvider>{children}</StopwatchContextProvider>
-  </QueryClientProvider>
+  <ApolloProvider client={client}>
+    {children}
+  </ApolloProvider>
 );
-
-export const useApplicationContext = () => useContext(ApplicationContext);
